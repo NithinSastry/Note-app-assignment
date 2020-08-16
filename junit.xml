@@ -1,0 +1,27 @@
+<testsuites name="jest tests" tests="5" failures="1" time="1.893">
+  <testsuite name="undefined" errors="0" failures="1" skipped="0" timestamp="2020-08-16T17:54:21" time="1.893" tests="5">
+    <testcase classname=" initial UI is rendered as expected and button works" name=" initial UI is rendered as expected and button works" time="0.052">
+    </testcase>
+    <testcase classname=" button adds notes" name=" button adds notes" time="0.011">
+    </testcase>
+    <testcase classname=" Multiple notes can be added" name=" Multiple notes can be added" time="0.02">
+    </testcase>
+    <testcase classname=" Switching between buttons work" name=" Switching between buttons work" time="0.045">
+      <failure>Error: expect(element).toHaveTextContent()
+
+Expected element to have text content:
+  Movie
+Received:
+  Fill form
+    at Object.&lt;anonymous&gt;.test (C:\Nithin\note app assignment\Note-app-assignment\src\App.test.js:132:43)
+    at Object.asyncFn (C:\Nithin\note app assignment\Note-app-assignment\node_modules\jest-jasmine2\build\jasmine-async.js:68:30)
+    at resolve (C:\Nithin\note app assignment\Note-app-assignment\node_modules\jest-jasmine2\build\queueRunner.js:38:12)
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (C:\Nithin\note app assignment\Note-app-assignment\node_modules\jest-jasmine2\build\queueRunner.js:31:21)
+    at Promise.resolve.then.el (C:\Nithin\note app assignment\Note-app-assignment\node_modules\p-map\index.js:46:16)
+    at process._tickCallback (internal/process/next_tick.js:68:7)</failure>
+    </testcase>
+    <testcase classname=" In active tab, dont show completed notes" name=" In active tab, dont show completed notes" time="0.027">
+    </testcase>
+  </testsuite>
+</testsuites>
